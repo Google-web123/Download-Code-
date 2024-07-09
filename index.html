@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <img src="https://i.imgur.com/pHEPdvL.jpeg" alt="Image 1" onclick="redirectTo('image1.html')">
+            <img src="https://i.imgur.com/FDA8IqZ.jpeg" alt="Image 2" onclick="redirectTo('image2.html')">
+            <img src="https://i.imgur.com/T5LUKZl.jpeg" alt="Image 3" onclick="redirectTo('image3.html')">
+            <img src="https://i.imgur.com/pHEPdvL.jpeg" alt="Image 4" onclick="redirectTo('image4.html')">
+
+            <a href="files.html">Show more +4</a>
+        </div>
+       
+   <h5>description:</h5>
+   <p class="txt">As you can see in the image,<br> this is a special design for the login page for the Twitter platform, <br>which consists of custom buttons and design .<br /> These languages are <span class="html">HTML</span>and <span class="css">CSS</span>And also <span class="Java">JavaScript.</span><span class="pr">price : 0$</span></p>
+   <br>
+   <div class="py">
+     <center>
+       <!--Tab to edit-->
+       <div class="pym">
+       <a href="/twitter_x-main (1).zip" download="Twitter page">
+        <button>Download File </button>
+    
+       </div>
+       <br>
+       <br />
+       
+     </center>
+   </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* لضمان أن الإطار سيكون في أعلى الصفحة */
+  
+    background-color: #f0f0f0;
+    
+}
+
+.container {
+    width: fit-content; /* لضمان أن الوصف لن يكون في وسط الصفحة */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid #000; /* إطار أسود */
+    margin: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px; /* مساحة إضافية أسفل الإطار */
+    margin-top: 7px; /* إزالة الفراغ العلوي */
+}
+
+.gallery img {
+    width: 100px; /* تصغير حجم الصور */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    font-size: 16px;
+
+}
+span{
+  font-size: 19px;
+  color: #46CDC8;
+}
+.html{
+  color: #CD4646;
+  font-size: 19px;
+}
+.css{
+  color: #46A0CD;
+  font-size: 19px;
+}
+.Java{
+  color: #CEE45A;
+  font-size: 19px;
+}
+.txt{
+  margin: 5px;
+  font-size: 20px;
+}
+h5{
+  margin: 5px;
+}
+.pr{
+  color: #458950;
+  font-size: 19px;
+}
+.py{
+  
+}
+.pym a{
+  text-align: center;
+ 
+  font-size: 18px;
+  background: #81C78C;
+  border-radius: 4px;
+  padding: 10px 60px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+    color: inherit; /* للحفاظ على نفس لون النص */
+  text-align: center;
+    margin: 0; /* إزالة المسافات الافتراضية */
+}
+a{
+  text-align: center;
+ 
+  font-size: 18px;
+ 
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  
+ color: #F23670;
+  text-align: center;
+    margin: 0; /* إزالة المسافات الافتراضية */
+}
+button{
+  text-align: center;
+ margin: 50px;
+  font-size: 18px;
+  background: #81C78C;
+  border-radius: 4px;
+  padding: 10px 5px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+    color: inherit; /* للحفاظ على نفس لون النص */
+  text-align: center;
+    margin: 0; /* إزالة المسافات الافتراضية */
+    border: none;
+}
+button:hover{
+  color: #B7E4C6;
+}
+</style>
+
